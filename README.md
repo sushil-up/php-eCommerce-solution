@@ -1,12 +1,12 @@
-# eCommerce Platform - Core PHP by AcewebX
+# eCommerce Platform - Core PHP by Sushil
 
-Contributors: Acewebx Team 
+Contributors: Sushil 
 
-Donate link: https://shop.web-xperts.xyz/shop
+Demo : https://shop.web-xperts.xyz
 
 ## Overview
 
-The eCommerce Platform by AcewebX is a custom-built online shopping solution developed using Core PHP, MySQL, JavaScript (with jQuery), and Bootstrap. This platform is designed to provide a comprehensive online shopping experience, allowing users to browse products, manage their cart, apply discounts with coupons, and complete purchases securely via Stripe. It also features an admin dashboard for managing products, coupons, reviews, users, and orders.
+The eCommerce Platform by Sushil is a custom-built online shopping solution developed using Core PHP, MySQL, JavaScript (with jQuery), and Bootstrap. This platform is designed to provide a comprehensive online shopping experience, allowing users to browse products, manage their cart, apply discounts with coupons, and complete purchases securely via Stripe. It also features an admin dashboard for managing products, coupons, reviews, users, and orders.
 
 ## Features
 
@@ -40,11 +40,3 @@ Before you begin, ensure you have the following:
 - Apache or Nginx server
 - Composer for dependency management
 - Stripe account for payment gateway integration
-
-### Installation
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/acewebx/ecommerce-platform.git
-   cd ecommerce-platform
