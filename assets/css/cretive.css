@@ -1,0 +1,1437 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter";
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5
+{
+  font-family: 'Days One';
+}
+body, p, div, span, label, a {
+  font-family: 'Inter';
+}
+
+body.checkout,
+body.cart{
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity)) !important;
+}
+.d-flex {
+  align-items: center;
+}
+
+/* admin-top bar */
+.admin-bar {
+  background-color: #1a1a1a;
+  height: 40px;
+  padding: 10px;
+}
+.admin-bar ul{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  gap: 20px;
+}
+
+.admin-bar ul a:before{
+  margin-right: 5px;
+}
+
+
+/* top-bar */
+.banner-section {
+  background-image: url("../image/banner_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 666px;
+  margin-bottom: 100px;
+}
+.top-bar {
+  background-color: #073668;
+  padding: 10px 0 10px 0;
+}
+
+.top-text-box {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  gap: 40px;
+  width: 100%;
+}
+
+.brand {
+  width: 108px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+.top-left-text {
+  height: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.008em;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+.banner-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 950px;
+}
+.social-media {
+  display: flex;
+  gap: 27px;
+  size: 10px;
+  font-size: 18px;
+}
+/* nav bar */
+.bi.bi-lock {
+  padding-top: 9px;
+}
+.nav.navbar-nav.navbar-right {
+  margin-bottom: 3px;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #111110;
+}
+.nav-img{
+  margin-right: auto;
+}
+.site-header{
+  border-bottom: 1px solid #ccc;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #1D2019;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 11px;
+}
+.heading {
+  color: #fff;
+  font-family: "Days One";
+  font-size: 50px;
+  line-height: 11px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+ .infomation.heading {
+  font-family: "Days One";
+text-align: left;
+height: 32px;
+letter-spacing: 2.16px;
+text-transform: uppercase;
+} 
+.heading3 {
+  height: 12px;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 3px;
+  padding-top: 46px;
+  margin-left: 102px;
+  font-family: "Days One";
+}
+
+.banner-text {
+  height: 70px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #111010;
+  font-weight: bold;
+}
+
+.navbar.navbar-default {
+  margin: 0 !important;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ 
+.support {
+height: 14px;
+font-family: "Days One";
+font-weight: 400;
+font-size: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
+padding-bottom: 21px;
+}
+.support1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #343434;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: 'Inter';
+  height: 12px;
+}
+
+.support2 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #343434;
+}
+/* lets start */
+
+.test-heading3 {
+  height: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 45px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+/* service */
+.service-box {
+  margin-bottom: 50px;
+}
+
+.service {
+background-color: #003f92;
+width: 320px;
+height: 195px;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+
+}
+.helpline.returns {
+  width: 320px;
+  height: 195px;
+  padding-top: 0px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.helpline {
+  padding-top: 43px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.return {
+  width: 351px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.0);
+ 
+}
+/* order shipping */
+
+.shipping {
+width: 216px;
+height: 14px;
+font-family: 'Days One';
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 3px;
+color: #FFFFFF;
+margin-left: 63px;
+margin-top: 5px;
+ 
+}
+
+.rate {
+  font-weight: 700;
+  font-size: 11px;
+  font-family: 'Inter';
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.img-fulid {
+  margin-top: 44px;
+}
+
+.return.policy {
+  font-size: 20px;
+  font-family: "Days One";
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-left: 54px;
+}
+
+.back.money {
+  font-size: 15px;
+  font-family: "Inter";
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 11px;
+}
+/* service  end */
+
+
+/* Footer */
+.banner-cretive-image {
+  background-image: url("../image/Testimonial.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.footer-informarion a {
+  margin-bottom: 10px;
+}
+.banner-heading {
+  height: 12px;
+  line-height: 11px;
+  margin-bottom: -29px;
+  color: #fff;
+  font-family: 'Days One';
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-top: 111px;
+padding-bottom: 36px;
+}
+  .banner-image-paragraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    height: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 40px;
+  }
+.line {
+  width: 100px;
+  height: 11px;
+
+  background: black;
+}
+.publishing{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  
+  color: #ffffff;
+  padding-top: 63px;
+  width: 900px;
+height: 120px;
+margin-left: 1677px;
+
+}
+
+/* .testimonial section */
+.container-fluid.text-center {
+  background: #F2FAFF;
+  margin-bottom: 100px;
+}
+.testimonial-img {
+  width: 100px;
+  height: 11px;
+  margin-bottom: -43px;
+  margin-top: 14px;
+}
+.subscribe {
+  background-color: #003F92;
+  color: #fff;
+  width: 146px;
+  font-family: 'Days One';
+  font-size: 16px;
+}
+.heading-email {
+height: 18.53px;
+font-family: 'Days One';
+font-size: 16px;
+line-height: 120%;
+text-transform: uppercase;
+color: #343434;
+margin-top: 63px;
+padding-top: 80px;
+}
+.subheading-mail {
+height: 45.84px;
+font-family: 'Days One';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 120%;
+text-align: center;
+letter-spacing: 0.005em;
+color: #343434;
+margin-top: 25px;
+}
+.lets-email {
+height: 18.53px;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #343434;
+padding-top: 3px;
+}
+.input-type {
+  font-size: 15px;
+}
+.btn-mail {
+  background-color: #147edbdb;
+  font-size: 18px;
+  color: #fff;
+}
+.footer {
+  background-color: #003F92;
+  padding-top: 50px;
+} 
+
+.cretive-text {
+  font-size: 14px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Inter';
+}
+.follow {
+letter-spacing: 3px;
+font-family: 'Days One';
+color: #fff;
+height: 12px;
+font-size: 25px;
+}
+.footer-img {
+  width: 139px;
+  height: 53px;
+  margin-bottom: 9px;
+margin-top: -2px;
+}
+.footer-icon-box {
+  padding-right: 253px;
+  margin-top: 34px;
+}
+.informarion {
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Days One';
+}
+
+.mail {
+  padding-top: 40px;
+}
+.products {
+  height: 24px;
+  display: flex;
+}
+.sub-heading {
+  text-align: center;
+  padding-top: 5px;
+}
+.contact{
+  height: 24px;
+  display: flex;
+}
+.blog{
+  height: 24px;
+  display: flex;
+}
+.policy{
+  height: 24px;
+  display: flex;
+}
+.term{
+  height: 24px;
+  display: flex;
+}
+.Contact {
+  color: #fff;
+  font-size: 18.8px;
+  text-transform: uppercase;
+}
+.footer-Contact {
+  color: #fff;
+  font-family: 'Inter';
+  color: #fff;
+  width: -16px;
+  
+}
+.contact.us {
+font-size: 13px;
+align-items: center;
+color: rgba(255, 255, 255, 0.8);
+font-weight: 700;
+
+}
+ .glyphicon.glyphicon-map-marker.st-5 {
+  font-size: 13px;
+  line-height: 26px;
+  margin-right: 204px;
+  width: -20px;
+  padding-top: 5px;
+}  
+.glyphicon {
+
+  top: 1px;
+  display: inline-block;
+  font-family: "Glyphicons Halflings";
+  padding-right: 4px;
+}
+.tittle {
+  background-color: #F2FAFF;
+}
+.timing {
+font-weight: 700;
+font-size: 13px;
+
+} 
+#if {
+  padding-right: 10px;
+  font-size: 16px;
+margin-top: 15px;
+}
+/* footer contact */
+.email {
+  margin-bottom: 11px;
+  color: #fff;
+}
+.addres-footer {
+  margin-bottom: 11px;
+  color: #fff;
+}
+.text-copy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+display: block;
+}
+.copy-right.p-4 {
+  background: #02295B;
+}
+.text-center.p-3 {
+  color: #fff;
+  width: -16px;
+  margin-bottom: 22px;
+}
+.glyphicon.glyphicon-map-marker.py-4 {
+  margin-bottom: 13px;
+} 
+.copyright {
+background: #02295B;
+font-size: 19px;
+height: 20px;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+text-align: center;
+color: #fff;
+}
+.row-t6 {
+  color: #02295B;
+  padding-top: -37px;
+  margin-top: 36px;
+}   
+.container.-footer {
+  background-color:#003F92;
+}
+.Information {
+  font-size: 18px;
+} 
+.about {
+  line-height: 24px;
+  display: flex;
+  font-size: 15px;
+} 
+.footer-media {
+  font-size: 17px;
+  display: flex;
+  gap: 39px;
+  padding-top: 10px;
+}
+.steps-heading {
+text-align: center;
+height: 32px;
+font-family: 'Days One';
+font-size: 45px;
+line-height: 42px;
+letter-spacing: 0.05em;
+color: #343434;
+}
+/*slider*/
+.text-justify{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  width: 814px;
+  padding-top: 42px;
+  margin-left: 178px;
+  padding-top: 39px;
+}
+.carouselSection{
+background-image: url('../image/Testimonial.png');
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height: 655px;
+
+}
+.img-testimne {
+  margin-left: 351px;
+padding-top: 38px;
+}
+.slick-prev.slick-arrow {
+  height: 104px;
+  width: 49px;
+  font-size-adjust: 2;
+}
+.slick-next.slick-arrow {
+  height: 104px;
+  width: 49px;
+  font-size-adjust: 2;
+}
+
+/*slider-----end*/
+
+/* gallary-frame */
+
+.collge-frame1 {
+  padding-bottom: 39px;
+  width: 205px;
+  height: 187.29px;
+  margin-top: 71px;
+}
+.star {
+  margin-left: 159px;
+  margin-top: -50px;
+}
+.star-2 {
+  margin-left: 159px;
+  margin-top: -68px;
+}
+
+.gallary-frame {
+  background-image: url('../image/Rectangle 23(3).png');
+  width: 270px;
+  height: 278px;
+}
+.gallary-frame2 {
+  background-image: url('../image/Rectangle 24(1).png');
+  height: 278px;
+width: 270px;
+}
+.collge-freame1 {
+padding-bottom: 39px;
+width: 205px;
+height: 187.29px;
+margin-top: 87px;
+}
+
+.gallary-frame3 {
+  background-image: url('../image/Rectangle 25(1).png');
+  margin-bottom: 40px;
+  height: 278px;
+  width: 270px;
+}
+.s-frame2 {
+padding-bottom: 39px;
+width: 205px;
+height: 187.29px;
+margin-top: 71px;
+}
+.gallary-frame4 {
+  background-image: url('../image/Rectangle 26(1).png');
+  margin-bottom: 40px;
+  height: 278px;
+  width: 270px;
+}
+.s-frame3 {
+  padding-bottom: 39px;
+  width: 205px;
+  height: 187.29px;
+  margin-top: 71px;
+}
+.collge-freame0 {
+  padding-bottom: 39px;
+  width: 205px;
+  height: 187.29px;
+  margin-top: 71px;
+}
+
+  .GALLARY-frame1 {
+    width: 271px;
+  }
+  /* gallary-frame ending */
+
+
+/* how we work */
+.gallary-tittle {
+  width: 536px;
+  font-family: 'Days One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 5.04px;
+  text-transform: uppercase;
+  color: #343434;
+  margin-left: 304px;
+}
+
+.testi-paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  width: 901px;
+  margin-left: 187px;
+  padding-top: 32px;
+}
+
+.steps-text {
+  font-size: 15px;
+  line-height: 38px;
+  text-align: center;
+}
+.img1 {
+  width: 85px;
+  height: 11px;
+  margin-top: -18px;
+  background: #003F92;
+  padding-left: 2pc;
+  margin-left: 533px;
+  text-align: center;
+}
+.dot {
+  padding-bottom: 20px;
+  margin-left: 571px;
+  margin-top: -5px;
+}
+.card-img1 {
+  width: 544px;
+height: 297px;
+background: rgba(0, 0, 0, 0.14);
+ 
+}
+.card-frame-left {
+  background: #F2FAFF;
+height: 297px;
+}
+.card.frame-left {
+  background: #F2FAFF;
+    height: 297px;
+  }
+ 
+
+.frame-img-collage {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.collge-freame {
+  padding-bottom: 39px;
+  width: 205px;
+  height: 187.29px;
+  margin-top: 71px;
+}
+.view-small-image {
+  padding-top: 10px;
+  padding-bottom: 22px;
+} 
+.card-title {
+  font-size: 30px;
+  font-family: 'Days One';
+  text-align: center;
+  margin-top: 54px;
+}
+.card-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #1D2019;
+  
+ 
+}
+.card-text2 {
+  font-family: 'Times New Roman';
+  font-size: 24px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #1D2019;
+  margin-left: 182px;
+}
+
+.div-step {
+  margin-top: 14px;
+  width: 68px;
+  margin-left: 216px;
+}
+
+/*lets*/
+.let-heading {
+font-family: 'Days One';
+font-size: 40px;
+line-height: 55px;
+letter-spacing: 5.04px;
+text-transform: uppercase;
+}
+.costomize-text {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.let-banner {
+  width: 520px;
+  height: 520px;
+  margin-top: 20px;
+}
+.let-img {
+  width: 100px;
+  height: 11px;
+  margin-top: 0;
+}
+
+/*circule icon*/
+.circle-1 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #1D2019;
+  border-radius: 20px;
+  margin-right: 600px;
+  margin-top: 38px;
+  background-color: white;
+}
+.btn.let-primary.btn-lg {
+  background-color: #003F92;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #fff;
+}
+.btn.let-secondary.btn-lg {
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: 'Days One';
+}
+.lets-btn {
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+.frame {
+  margin-bottom: 100px;
+}
+/*circule-icon-color*/
+.circle-icon {
+  font-size: 33px;
+  margin-top: 19px;
+}
+.bi.bi-circle-fill.blue-color {
+  color: blue;
+}
+.bi.bi-circle-fill.green-color {
+  color: green;
+}
+.bi.bi-circle-fill.teal-color {
+  color: teal;
+}
+.bi.bi-circle-fill.yellow-color {
+  color: yellow;
+}
+.bi.bi-circle-fill.pink-color {
+  color: pink;
+}
+.bi.bi-circle-fill.white-color {
+  color: #fff;
+}
+.bi.bi-circle-fill.-color {
+  color: #aa1010;
+}
+.bi.bi-circle-fill.red-color {
+  color: #10a2ce;
+}
+
+/*single frame*/
+.frame-img {
+  margin-bottom: 96px;
+  margin-top: 6px;
+}
+.frame-tittle {
+  letter-spacing: 5.04px;
+  text-transform: uppercase;
+  color: #343434;
+  font-size: 40px;
+  font-family: 'Days One';
+}
+.frame-subtittle {
+  height: 12px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1C1C1C;
+ 
+}
+.s-frame1 {
+  width: 270px;
+  height: 278px;
+
+}
+.frame-img-1 {
+  padding-bottom: 10px;
+padding-top: 8px;
+}
+.new-york {
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  font-size: 10px;
+  line-height: 18px;
+  font-family: 'Days One';
+  margin-top: 21px;
+  padding-right: 10px;
+  padding-top: 64px;
+}
+.sf-rate {
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  color: #343434;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  font-family: 'Inter';
+  width: 89px;
+  height: 11px;
+  margin-right: -5px;
+  padding-left: 10px;
+}
+.color-bar {
+  margin-right: 165px;
+  font-size: 14px;
+}
+.single-frame {
+  margin-top: -82px;
+}
+.container.yy {
+  width: 2607px;
+  background-color: #02295B;
+}
+.sf-heading {
+  margin-top: -77px;
+}
+.view {
+  background: #003F92;
+  border: 1px solid #1C1C1C;
+  color: #fff;
+  width: 363.83px;
+  height: 44.22px;
+ 
+  box-sizing: border-box;
+  margin-top: 76px;
+  margin-bottom: 35px;
+}
+/* single frame end */
+
+.portait {
+  font-family: 'Days One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  margin-top: 10px;
+  height: 25px;
+  padding-top: 108px;
+}
+.portait1 {
+  font-family: 'Days One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  margin-top: 10px;
+  height: 25px;
+
+} 
+
+/* Login Style */
+.log-in-form{
+  background-image: url("../image/banner_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#sign_in {
+  font-size: 18px;
+}
+
+.login-card {
+  width: 50%;
+  margin: 150px auto;
+  background-color: #ffffffe0;
+}
+.text-center {
+  text-align: center !important;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+}
+
+/* css of register page  */
+
+.register-form{
+  background-image: url("../image/banner_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.form-heading {
+  color: #fff;
+
+  text-align: center;
+  height: 32px;
+  font-family: 'Days One';
+  font-size: 45px;
+  line-height: 42px;
+  letter-spacing: 0.05em;
+  
+  text-transform: uppercase;
+}
+
+
+.text {
+
+  margin-right: 138px;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+.text-muted {
+  color: #6c757d !important;
+}
+/* 
+#text {
+  
+  width: 120px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 116px;
+  width: 251px;
+
+}
+
+#submit {
+ 
+  margin-top: 21px;
+}
+h1{
+  width: 468px;
+  height: 32px;
+  left: 787px;
+  top: 1424px;
+  
+  font-family: 'Days One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 42px;
+  
+  /* or 93% */
+/*   
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  color: #343434;
+  
+  
+}
+.input{
+  text-transform: uppercase;
+  text-align: center;
+}
+#phone\ number {
+  margin-left: 8px;
+ }
+
+ margin-left: 4px; 
+} 
+ */
+/* profile-edit */
+.text-muted.mb-1 {
+  font-size: 15px;
+}
+
+
+/* css end register page 
+ /* drop down menu */
+
+.sub-menu.profile {
+  padding-left: 0;
+  list-style: none;
+}
+#sub-menu\ profile\ dropdown-item {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+#dropdownMenuLink {
+   font-size: 22px;
+  line-height: 0;
+}
+.dropdown-menu {
+  position: absolute;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+/* drop down menu end */
+
+/* user edit profile */
+.text-muted.mb-0 {
+  width: 395px;
+}
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+  padding: 0px;
+ 
+}
+/* profile edit */
+#user-edit {
+  margin-top: 12px;
+}
+.user-image {
+width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+/* shop page csss start  */
+
+
+.btn.btn-outline-dark.mt-auto {
+ 
+  background-color: #073668;
+  color: #fff;
+}
+#rate {
+  font-size: 20px;
+}
+
+
+/* shop page css end  */
+
+/* shopingcart  */
+  /* payment.php */
+  /* admin product detail */
+
+  .cart-ico {
+    position: relative;
+    margin-left: auto;
+  }
+  .cart-counter.bg-danger.text-light {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    font-size: 12px;
+  }
+  .product_image {
+    width: 78px;
+  }
+  /* sss */
+  #edit {
+    margin-bottom: 10px;
+  }
+  #card-img-top {
+    height: 250px;
+  }
+  
+  /* 404 error  */
+	.error-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.big-text {
+		font-size: 200px;
+		font-weight: 900;
+		background: url("../image/thunderstorm-3441687_960_720.webp");
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: cover;
+		background-position: center;
+	}
+	.small-text {
+		color: rgb(0, 0, 0);
+		font-size: 30px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+  /* End 404 error  */
+  /* single page */
+  #heading {
+    color: #060606;
+  }
+  .bi.bi-heart {
+    color: red;
+  }
+  /* chechout */
+  #removeproduc {
+    float: right;
+    font-size: 53px;
+  }
+  #rating {
+    display: flex;
+    float: left;
+    padding-right: 0px;
+    color: yellow;
+    margin-top: -13px;
+    font-size: 19px;
+    
+  }
+
+  #deletebutton {
+    background: white;
+    border: none;
+  }
+  .cartbutton {
+    text-align-last: end;
+    margin-top: -30px;
+  }
+  .buttons {
+    text-align-last: end;
+  }
+.wishlistItem {
+  font-size: 25px;
+  margin-left: 10px;
+}
+.starItem button {
+  padding: 2px;
+}
+
+.swal2-popup:not(.swal2-toast) .swal2-icon {
+  font-size: 40px !important;
+}
+
+@media screen and (max-width:420px){
+  .swal2-popup:not(.swal2-toast) .swal2-icon {
+    font-size: 20px !important;
+  }
+  .swal2-popup .swal2-actions {
+    padding: 0;
+  }
+  .swal2-actions button {
+    padding: 5px 15px !important;
+    font-size: 16px !important;
+  }
+  .login-card {
+    width: 90%;
+  }
+}
+
+/* body {
+  padding-top: 70px;
+} */
+.btn-grey{
+    background-color:#D8D8D8;
+	color:#FFF;
+}
+/* .rating-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px 15px 20px 15px;
+	border-radius:3px;
+} */
+.bold{
+	font-weight:700;
+}
+.padding-bottom-7{
+	padding-bottom:7px;
+}
+
+/* .review-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px;
+	border-radius:3px;
+	margin-bottom:20px;
+} */
+.review-block-name{
+	font-size:12px;
+	margin:10px 0;
+}
+.review-block-date{
+	font-size:12px;
+}
+.review-block-rate{
+	font-size:13px;
+	margin-bottom:15px;
+}
+.review-block-title{
+	font-size:15px;
+	font-weight:700;
+	margin-bottom:10px;
+}
+.review-block-description{
+	font-size:13px;
+  margin-left: 7px;
+}
+.col-sm-3.mt {
+  margin-bottom: 28px;
+}
+
+.bi.bi-star-fill {
+  color: yellow;
+}
+.bi-star-half {
+  color: yellow;
+}
+.bi.bi-star-fill.m {
+  color: black;
+}
+
+.reviewbutton {
+  margin-top: 40px;
+  margin-bottom: 17px;
+  
+}
+.rating-stars.review {
+  margin-top: 15px;
+}
+.starsList {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  display: flex;
+}
+.starsList .starItem {
+  display: inline;
+}
+.col-lg-4.bt {
+  margin-top: 90px;
+}
+.formbtn {
+  margin-top: 62px;
+  
+}
+#border {
+  border: 1px solid #d7d7cb;
+  
+}
+#avgtop {
+  
+
+  border-bottom: 1px solid #cac9c9 !important;
+}
+
+
+.slug.name {
+  color: #2b88ffe3;
+}
+
+.emptycart {
+
+  margin-left: 33px;
+}
+.review-block {
+  margin-top: 10px;
+  margin-bottom: 85px;
+}
+.review-block-date {
+  margin-bottom: 10px;
+}
+.col-sm-4.mt {
+  margin-bottom: 12px;
+}
+
+/* #checkouti {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+} */
+#single {
+  margin-right: 67px;
+}
+
+/* Hover Effect */
+.list-group-item:hover {
+  background-color: #f0f0f0; /* Gray background color when hovered */
+}
+
+/* Active Item */
+.list-group-item.active {
+  background-color: #007bff; /* Blue background color when active */
+  color: #fff; /* White text color */
+}
+.mt-2 {
+  margin: .5rem !important;
+}

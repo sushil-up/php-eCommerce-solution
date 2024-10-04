@@ -1,0 +1,971 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+/* top-bar */
+.banner-section {
+  background-image: url("/assets/image/banner_720.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 666px;
+  margin-bottom: 100px;
+}
+.col-lg-2.col-md-4.col-12 {
+  display: flex;
+  justify-content: end;
+}
+.col-sm-4 {
+width: 351px;
+height: 195px;
+}
+.top-bar {
+  background-color: #073668;
+  height: 40px;
+  padding: 10px 0 10px 0;
+}
+
+.top-text-box {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  gap: 40px;
+}
+
+
+.brand {
+  width: 108px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+.top-left-text {
+  height: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.008em;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+.banner-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 950px;
+}
+.social-media {
+  display: flex;
+  gap: 27px;
+  size: 10px;
+  font-size: 18px;
+}
+/* nav bar */
+.bi.bi-lock {
+  padding-top: 9px;
+}
+ 
+.navbar-default .navbar-nav > li > a {
+  color: #1D2019;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 11px;
+}
+.heading {
+  color: #fff;
+  font-family: "Days One";
+  font-size: 50px;
+  line-height: 11px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.infomation.heading {
+  width: 341px;
+  height: 32px;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 50px;
+  font-family: "Days One";
+}
+.heading3 {
+  height: 12px;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 3px;
+  padding-top: 46px;
+  margin-left: 102px;
+  font-family: "Days One";
+}
+
+.banner-text {
+  height: 70px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #111010;
+  font-weight: bold;
+}
+
+.navbar.navbar-default {
+  margin: 0 !important;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ 
+.support {
+height: 14px;
+font-family: "Days One";
+font-weight: 400;
+font-size: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
+padding-bottom: 21px;
+}
+.support1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #343434;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: 'Inter';
+  height: 12px;
+}
+
+.support2 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #343434;
+}
+/* lets start */
+
+.test-heading3 {
+  height: 12px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 45px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+/* service */
+
+.service {
+background-color: #003f92;
+width: 320px;
+height: 195px;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+
+}
+.helpline.returns {
+  width: 320px;
+  height: 195px;
+  padding-top: 0px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.helpline {
+  padding-top: 43px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.return {
+  width: 351px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.0);
+ 
+}
+/* order shipping */
+
+.shipping {
+width: 216px;
+height: 14px;
+font-family: 'Days One';
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 3px;
+color: #FFFFFF;
+margin-left: 63px;
+margin-top: 5px;
+ 
+}
+
+.rate {
+  font-weight: 700;
+  font-size: 11px;
+  font-family: 'Inter';
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.img-fulid {
+  margin-top: 44px;
+}
+
+.return.policy {
+  font-size: 20px;
+  font-family: "Days One";
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-left: 54px;
+}
+
+.back.money {
+  font-size: 15px;
+  font-family: "Inter";
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 11px;
+}
+/* service  end */
+
+
+/* Footer */
+.banner-cretive-image {
+  background-image: url("./image/Testimonial.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.banner-heading {
+  height: 12px;
+  line-height: 11px;
+  margin-bottom: -29px;
+  color: #fff;
+  font-family: 'Days One';
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-top: 111px;
+padding-bottom: 36px;
+}
+  .banner-image-paragraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    height: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 40px;
+  }
+.line {
+  width: 100px;
+  height: 11px;
+
+  background: black;
+}
+.publishing{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  
+  color: #ffffff;
+  padding-top: 63px;
+  width: 900px;
+height: 120px;
+margin-left: 1677px;
+
+}
+
+/* .testimonial section */
+
+.testimonial-img {
+  width: 100px;
+  height: 11px;
+  margin-bottom: -43px;
+  margin-top: 14px;
+}
+.subscribe {
+  background-color: #003F92;
+  color: #fff;
+  width: 146px;
+  font-family: 'Days One';
+  font-size: 16px;
+}
+.heading-email {
+height: 18.53px;
+font-family: 'Days One';
+font-size: 16px;
+line-height: 120%;
+text-transform: uppercase;
+color: #343434;
+margin-top: 63px;
+padding-top: 80px;
+}
+.subheading-mail {
+height: 45.84px;
+font-family: 'Days One';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 120%;
+text-align: center;
+letter-spacing: 0.005em;
+color: #343434;
+}
+.lets-email {
+height: 18.53px;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+color: #343434;
+padding-top: 3px;
+}
+.input-type {
+  font-size: 15px;
+}
+.btn-mail {
+  background-color: #147edbdb;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer {
+margin-right: -15px;
+margin-top: 28px;
+background-color: #003F92;
+}
+
+.cretive-text {
+  font-size: 15px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+.follow {
+color: #fff;
+letter-spacing: 3px;
+text-transform: uppercase;
+font-size: 25px;
+font-family: 'Days One';
+color: #fff;
+height: 12px;
+font-size: 25px;
+}
+.footer-img {
+  width: 139px;
+  height: 53px;
+  margin-bottom: 9px;
+margin-top: -2px;
+}
+.footer-icon-box {
+  padding-right: 253px;
+  margin-top: 34px;
+}
+.footer-informarion {
+  
+color: #fff;
+font-size: 15px;
+}
+.mail {
+  padding-top: 40px;
+}
+.products {
+  height: 24px;
+  display: flex;
+}
+.contact{
+  height: 24px;
+  display: flex;
+}
+.blog{
+  height: 24px;
+  display: flex;
+}
+.policy{
+  height: 24px;
+  display: flex;
+}
+.term{
+  height: 24px;
+  display: flex;
+}
+.Contact {
+  color: #fff;
+  font-family: 'Days One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.8px;
+  line-height: 32px;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+}
+.footer-Contact {
+  color: #fff;
+  font-family: 'Inter';
+  color: #fff;
+  width: -16px;
+  
+}
+.contact.us {
+font-family: 'Segoe UI';
+width: 200px;
+height: 24px;
+font-size: 13px;
+line-height: 23px;
+align-items: center;
+color: rgba(255, 255, 255, 0.8);
+}
+ .glyphicon.glyphicon-map-marker.st-5 {
+  font-size: 13px;
+  line-height: 26px;
+  margin-right: 204px;
+  width: -20px;
+  padding-top: 5px;
+}  
+.glyphicon {
+
+  top: 1px;
+  display: inline-block;
+  font-family: "Glyphicons Halflings";
+  padding-right: 4px;
+}
+.tittle {
+  width: 1202px;
+  height: 377px;
+  background-color: #F2FAFF;
+}
+.timing {
+width: 316px;
+height: 24px;
+font-family: 'Segoe UI';
+font-weight: 700;
+font-size: 13px;
+color: #FFFFFF;
+} 
+#if {
+  padding-right: 10px;
+  font-size: 16px;
+margin-top: 15px;
+}
+#address {
+  width: 195px;
+  height: 78px;
+  line-height: 26px;
+  letter-spacing: 0.005em;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+.text-center.p-3 {
+  color: #fff;
+  width: -16px;
+  margin-bottom: 22px;
+}
+.glyphicon.glyphicon-map-marker.py-4 {
+  margin-bottom: 13px;
+} 
+.copyright {
+background: #02295B;
+font-size: 19px;
+height: 20px;
+font-family: 'Spartan';
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.005em;
+text-align: center;
+color: #fff;
+}
+.row-t6 {
+  color: #02295B;
+  padding-top: -37px;
+  margin-top: 36px;
+}   
+.container.-footer {
+  background-color:#003F92;
+}
+.Information {
+  font-size: 18px;
+} 
+.about {
+  line-height: 24px;
+  display: flex;
+  font-size: 15px;
+} 
+.footer-media {
+  font-size: 25px;
+  gap: 70px;
+  line-break: nj;
+
+  display: flex;
+  gap: 39px;
+  padding-top: 10px;
+}
+.steps-heading {
+text-align: center;
+height: 32px;
+font-family: 'Days One';
+font-size: 45px;
+line-height: 42px;
+letter-spacing: 0.05em;
+color: #343434;
+}
+/*slider*/
+.text-justify{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  width: 814px;
+  padding-top: 42px;
+  margin-left: 178px;
+  padding-top: 39px;
+}
+.carouselSection{
+background-image: url('./image/Testimonial.png');
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height: 655px;
+
+}
+.img-testimne {
+  margin-left: 351px;
+padding-top: 38px;
+}
+.slick-prev.slick-arrow {
+  height: 104px;
+  width: 49px;
+  font-size-adjust: 2;
+}
+.slick-next.slick-arrow {
+  height: 104px;
+  width: 49px;
+  font-size-adjust: 2;
+}
+
+/*slider-----end*/
+
+/* gallary-frame */
+
+.collge-frame1 {
+  padding-bottom: 39px;
+  width: 205px;
+  height: 187.29px;
+  margin-top: 71px;
+}
+.star {
+  margin-left: 159px;
+  margin-top: -50px;
+}
+.star-2 {
+  margin-left: 159px;
+  margin-top: -68px;
+}
+
+.gallary-frame {
+  background-image: url('./image/Rectangle 23(3).png');
+  width: 270px;
+  height: 278px;
+}
+.gallary-frame2 {
+  background-image: url('./image/Rectangle 24(1).png');
+  height: 278px;
+width: 270px;
+}
+.collge-freame1 {
+padding-bottom: 39px;
+width: 205px;
+height: 187.29px;
+margin-top: 87px;
+}
+
+.gallary-frame3 {
+  background-image: url('./image/Rectangle 25(1).png');
+  margin-bottom: 40px;
+  height: 278px;
+  width: 270px;
+}
+.s-frame2 {
+padding-bottom: 39px;
+width: 205px;
+height: 187.29px;
+margin-top: 71px;
+}
+.gallary-frame4 {
+  background-image: url('./image/Rectangle 26(1).png');
+  margin-bottom: 40px;
+  height: 278px;
+  width: 270px;
+}
+.s-frame3 {
+  padding-bottom: 39px;
+  width: 205px;
+  height: 187.29px;
+  margin-top: 71px;
+}
+.collge-freame0 {
+  padding-bottom: 39px;
+  width: 205px;
+  height: 187.29px;
+  margin-top: 71px;
+}
+
+  .GALLARY-frame1 {
+    width: 271px;
+  }
+  /* gallary-frame ending */
+
+
+/* how we work */
+.gallary-tittle {
+  width: 536px;
+  font-family: 'Days One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 5.04px;
+  text-transform: uppercase;
+  color: #343434;
+  margin-left: 304px;
+}
+.container {
+  width: 1217px;
+}
+.testi-paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  width: 901px;
+  margin-left: 187px;
+  padding-top: 32px;
+}
+
+.steps-text {
+  font-size: 15px;
+  line-height: 38px;
+  text-align: center;
+}
+.img1 {
+  width: 85px;
+  height: 11px;
+  margin-top: -18px;
+  background: #003F92;
+  padding-left: 2pc;
+  margin-left: 552px;
+  text-align: center;
+}
+.card-img1 {
+  width: 573px;
+  height: 297px;
+  background: rgba(0, 0, 0, 0.14);
+margin-bottom: 49px;
+ 
+}
+.card-frame-left {
+  background: #F2FAFF;
+  width: 573px;
+height: 297px;
+}
+.card.frame-left {
+  background: #F2FAFF;
+  width: 573px;
+height: 297px;
+}
+.frame-img-collage {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.collge-freame {
+  padding-bottom: 39px;
+  width: 205px;
+  height: 187.29px;
+  margin-top: 71px;
+}
+.view-small-image {
+  padding-top: 10px;
+  padding-bottom: 22px;
+} 
+.card-title {
+  font-size: 30px;
+  font-family: 'Days One';
+  text-align: center;
+  margin-top: 88px;
+}
+.card-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #1D2019;
+  width: 573px;
+  margin-top: -15px;
+}
+.card-text2 {
+  font-family: 'Times New Roman';
+  font-size: 24px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #1D2019;
+  margin-left: 182px;
+}
+
+.div-step {
+  padding-left: 63px;
+  margin-left: 162px;
+  margin-bottom: -97px;
+}
+
+/*lets*/
+.let-heading {
+font-family: 'Days One';
+font-size: 40px;
+line-height: 55px;
+letter-spacing: 5.04px;
+text-transform: uppercase;
+}
+.costomize-text {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.let-banner {
+  width: 520px;
+  height: 520px;
+  padding-top: 13px;
+}
+.let-banner {
+  width: 520px;
+  height: 520px;
+}
+.let-img {
+  width: 100px;
+  height: 11px;
+  margin-top: 0;
+}
+
+/*circule icon*/
+.circle-1 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #1D2019;
+  border-radius: 20px;
+  margin-right: 600px;
+  margin-top: 38px;
+  background-color: white;
+}
+.btn.let-primary.btn-lg {
+  background-color: #003F92;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #fff;
+}
+.btn.let-secondary.btn-lg {
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: 'Days One';
+}
+.lets-btn {
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+/*circule-icon-color*/
+.circle-icon {
+  font-size: 33px;
+  margin-top: 19px;
+}
+.bi.bi-circle-fill.blue-color {
+  color: blue;
+}
+.bi.bi-circle-fill.green-color {
+  color: green;
+}
+.bi.bi-circle-fill.teal-color {
+  color: teal;
+}
+.bi.bi-circle-fill.yellow-color {
+  color: yellow;
+}
+.bi.bi-circle-fill.pink-color {
+  color: pink;
+}
+.bi.bi-circle-fill.white-color {
+  color: #fff;
+}
+.bi.bi-circle-fill.-color {
+  color: #aa1010;
+}
+.bi.bi-circle-fill.red-color {
+  color: #10a2ce;
+}
+
+/*single frame*/
+.frame-img {
+  margin-bottom: 96px;
+  margin-top: 6px;
+}
+.frame-tittle {
+  letter-spacing: 5.04px;
+  text-transform: uppercase;
+  color: #343434;
+  font-size: 40px;
+  font-family: 'Days One';
+}
+.frame-subtittle {
+  height: 12px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1C1C1C;
+ 
+}
+.s-frame1 {
+  width: 270px;
+  height: 278px;
+
+}
+.frame-img-1 {
+  padding-bottom: 10px;
+padding-top: 8px;
+}
+.new-york {
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  font-size: 10px;
+  line-height: 18px;
+  font-family: 'Days One';
+  margin-top: 21px;
+  padding-right: 10px;
+  padding-top: 64px;
+}
+.sf-rate {
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  color: #343434;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  font-family: 'Inter';
+  width: 89px;
+  height: 11px;
+  margin-right: -5px;
+  padding-left: 10px;
+}
+.color-bar {
+  margin-right: 165px;
+}
+.single-frame {
+  margin-top: -82px;
+}
+.container.yy {
+  width: 2607px;
+  background-color: #02295B;
+}
+.sf-heading {
+  margin-top: -77px;
+}
+.view {
+  background: #003F92;
+  border: 1px solid #1C1C1C;
+  color: #fff;
+  width: 363.83px;
+  height: 44.22px;
+  padding: 11.39px 40.83px 10.83px 41px;
+  box-sizing: border-box;
+  margin-top: 76px;
+  margin-bottom: 35px;
+}
+/* single frame end */
+
+.portait {
+  font-family: 'Days One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  margin-top: 10px;
+  height: 25px;
+  padding-top: 108px;
+}
+.portait1 {
+  font-family: 'Days One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.16px;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  margin-top: 10px;
+  height: 25px;
+
+} 
+/* profile page */
+.dropdown-menu.show {
+  margin-left: -136px;
+}
+#dropdownMenuLink {
+  font-size: 20px;
+}
+.profile {
+  padding-top: 3px;
+}
+/* single product */
+.fw-bolder {
+  color: black;
+}
